@@ -8,7 +8,8 @@ The browser then reads the HTML, loads the necessary CSS and JavaScript files, a
 Finally, the browser puts everything together and displays the webpage on our screen. All these steps happen very quickly, which is why we can open a website within seconds.
 # Question 3 : Terminal Navigation Practice Sheet
 Objective: Learn how to navigate folders and files using the terminal in VS Code.
-1. Basic Terminal Commands
+
+Basic Terminal Commands
 
 pwd – Shows the current working directory.
 
