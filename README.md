@@ -29,25 +29,46 @@ touch filename – Creates an empty file in Linux/macOS or Git Bash.
 
 # Question 4 : Repository with at least three meaningful commits
 Step 1: Configure Git Identity (One-Time Setup)
+
 git config --global user.name "Prerna Sharma"
+
 git config --global user.email "your-github-email@example.com"
+
 Step 2: Create a Repository
+
 mkdir html-css-assignments
+
 cd html-css-assignments
+
 git init
+
 git branch -M main
+
 Step 3: Create the First Commit
+
 echo "# HTML CSS Assignments" > README.md
+
 git add README.md
+
 git commit -m "Initial commit: Add README"
+
 Step 4: Create the Second Commit
+
 mkdir HTML
+
 echo "<h1>My First Webpage</h1>" > HTML/index.html
+
 git add .
+
 git commit -m "Add initial HTML webpage"
+
 Step 5: Create the Third Commit
+
 mkdir CSS
+
 echo "body { font-family: Arial, sans-serif; }" > CSS/style.css
+
 git add .
+
 git commit -m "Add basic CSS styling"
 
