@@ -10,11 +10,44 @@ Finally, the browser puts everything together and displays the webpage on our sc
 Objective: Learn how to navigate folders and files using the terminal in VS Code.
 1. Basic Terminal Commands
 pwd – Shows the current working directory.
+
 ls – Lists files and folders in Linux/macOS.
+
 dir – Lists files and folders in Windows Command Prompt.
+
 cd foldername – Opens the specified folder.
+
 cd .. – Moves one level up to the parent directory.
+
 mkdir foldername – Creates a new folder with the specified name.
+
 clear – Clears the terminal screen in Linux/macOS.
+
 cls – Clears the terminal screen in Windows Command Prompt.
+
 touch filename – Creates an empty file in Linux/macOS or Git Bash.
+
+# Question 4 : Repository with at least three meaningful commits
+Step 1: Configure Git Identity (One-Time Setup)
+git config --global user.name "Prerna Sharma"
+git config --global user.email "your-github-email@example.com"
+Step 2: Create a Repository
+mkdir html-css-assignments
+cd html-css-assignments
+git init
+git branch -M main
+Step 3: Create the First Commit
+echo "# HTML CSS Assignments" > README.md
+git add README.md
+git commit -m "Initial commit: Add README"
+Step 4: Create the Second Commit
+mkdir HTML
+echo "<h1>My First Webpage</h1>" > HTML/index.html
+git add .
+git commit -m "Add initial HTML webpage"
+Step 5: Create the Third Commit
+mkdir CSS
+echo "body { font-family: Arial, sans-serif; }" > CSS/style.css
+git add .
+git commit -m "Add basic CSS styling"
+
