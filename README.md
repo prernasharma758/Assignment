@@ -9,14 +9,12 @@ Finally, the browser puts everything together and displays the webpage on our sc
 # Question 3 : Terminal Navigation Practice Sheet
 Objective: Learn how to navigate folders and files using the terminal in VS Code.
 1. Basic Terminal Commands
-| Command            | Purpose                               | Example            |
-| ------------------ | ------------------------------------- | ------------------ |
-| `pwd`              | Shows the current directory           | `pwd`              |
-| `ls`               | Lists files and folders (Linux/macOS) | `ls`               |
-| `dir`              | Lists files and folders (Windows CMD) | `dir`              |
-| `cd foldername`    | Opens a folder                        | `cd Projects`      |
-| `cd ..`            | Moves one folder back                 | `cd ..`            |
-| `mkdir foldername` | Creates a new folder                  | `mkdir Practice`   |
-| `clear`            | Clears the terminal (Linux/macOS)     | `clear`            |
-| `cls`              | Clears the terminal (Windows CMD)     | `cls`              |
-| `touch filename`   | Creates a file (Linux/macOS/Git Bash) | `touch index.html` |
+pwd – Shows the current working directory.
+ls – Lists files and folders in Linux/macOS.
+dir – Lists files and folders in Windows Command Prompt.
+cd foldername – Opens the specified folder.
+cd .. – Moves one level up to the parent directory.
+mkdir foldername – Creates a new folder with the specified name.
+clear – Clears the terminal screen in Linux/macOS.
+cls – Clears the terminal screen in Windows Command Prompt.
+touch filename – Creates an empty file in Linux/macOS or Git Bash.
