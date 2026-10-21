@@ -6,6 +6,12 @@ Once the IP address is found, the browser establishes a connection with the serv
 After that, the browser sends a request to the server asking for the webpage. The server processes the request and sends back the required content, usually starting with HTML.
 The browser then reads the HTML, loads the necessary CSS and JavaScript files, and processes images and other resources. HTML provides the structure, CSS handles the design, and JavaScript adds interactivity.
 Finally, the browser puts everything together and displays the webpage on our screen. All these steps happen very quickly, which is why we can open a website within seconds.
+# Question 2 : Setup Proof (VS Code, Node.js, Live Server)
+**Live server**
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/55867a14-29dd-45d4-b613-6d1a9ee4ccbc" />
+
+
 # Question 3 : Terminal Navigation Practice Sheet
 Objective: Learn how to navigate folders and files using the terminal in VS Code.
 
