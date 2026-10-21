@@ -9,6 +9,7 @@ Finally, the browser puts everything together and displays the webpage on our sc
 # Question 3 : Terminal Navigation Practice Sheet
 Objective: Learn how to navigate folders and files using the terminal in VS Code.
 1. Basic Terminal Commands
+
 pwd – Shows the current working directory.
 
 ls – Lists files and folders in Linux/macOS.
