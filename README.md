@@ -88,7 +88,6 @@ The GitHub repository contains the HTML and CSS assignment files, project docume
 
 **Note:** Replace `YOUR-USERNAME` with your actual GitHub username to create the correct repository link.
 # Question 6 : Basic HTML Page
-html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -118,6 +117,77 @@ html
 
 </body>
 </html>
+# Question 7 : resume-text-only.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+<body>
+
+    <h1>Prerna Sharma</h1>
+    <p>Email: your-email@example.com</p>
+    <p>Location: Uttar Pradesh, India</p>
+    <p>Career Goal: To build a career in Data Analytics and Artificial Intelligence.</p>
+
+    <hr>
+
+    <h2>Career Objective</h2>
+    <p>
+        I am a BCA (Artificial Intelligence) student interested in data analytics,
+        artificial intelligence, and research. I want to develop my technical skills
+        and gain practical experience through projects and learning opportunities.
+    </p>
+
+    <h2>Education</h2>
+    <ul>
+        <li>Bachelor of Computer Applications (Artificial Intelligence) – Invertis University</li>
+        <li>Class 12 – 65%</li>
+        <li>Class 10 – 80%</li>
+    </ul>
+
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>HTML and CSS</li>
+        <li>Java</li>
+        <li>Microsoft Excel</li>
+        <li>Power BI</li>
+        <li>Data Analytics</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ol>
+        <li>Healthcare Cost Burden Dashboard using Power BI</li>
+        <li>HR Analytics Dashboard</li>
+        <li>Banking Customer Analysis</li>
+    </ol>
+
+    <h2>Achievements</h2>
+    <ul>
+        <li>Secured a position in the Top 5 in a college hackathon.</li>
+        <li>Won medals in Judo competitions.</li>
+    </ul>
+
+    <h2>Certifications</h2>
+    <ul>
+        <li>Java Basic – HackerRank</li>
+        <li>CSS Basic – HackerRank</li>
+    </ul>
+
+    <h2>Declaration</h2>
+    <p>
+        I hereby declare that the information provided above is true
+        to the best of my knowledge.
+    </p>
+
+    <p><strong>Signature:</strong> Prerna Sharma</p>
+
+</body>
+</html>
+
 
 
 
