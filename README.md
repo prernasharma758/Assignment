@@ -79,4 +79,13 @@ echo "body { font-family: Arial, sans-serif; }" > CSS/style.css
 git add .
 
 git commit -m "Add basic CSS styling"
+# Question 5 : GitHub repository link
+**GitHub Repository Link**
+
+The GitHub repository contains the HTML and CSS assignment files, project documentation, and commit history.
+
+**Repository URL:** `https://github.com/YOUR-USERNAME/html-css-assignments`
+
+**Note:** Replace `YOUR-USERNAME` with your actual GitHub username to create the correct repository link.
+
 
