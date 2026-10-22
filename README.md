@@ -87,5 +87,37 @@ The GitHub repository contains the HTML and CSS assignment files, project docume
 **Repository URL:** `https://github.com/YOUR-USERNAME/html-css-assignments`
 
 **Note:** Replace `YOUR-USERNAME` with your actual GitHub username to create the correct repository link.
+# Question 6 : Basic HTML Page
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+</head>
+<body>
+
+    <h1>Welcome to My Webpage</h1>
+
+    <p>Hello! My name is Prerna.</p>
+    <p>This is my first basic HTML page.</p>
+
+    <h2>About Me</h2>
+    <p>I am a student learning web development.</p>
+
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Reading</li>
+        <li>Learning new skills</li>
+        <li>Exploring technology</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Email: example@email.com</p>
+
+</body>
+</html>
+
 
 
