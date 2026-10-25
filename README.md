@@ -117,7 +117,9 @@ The GitHub repository contains the HTML and CSS assignment files, project docume
 
 </body>
 </html>
+
 # Question 7 : resume-text-only.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
