@@ -348,7 +348,7 @@ The GitHub repository contains the HTML and CSS assignment files, project docume
 </body>
 </html>
 
-# Question 10 : personal-introduction.html
+# Question 10 : Personal introduction.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -435,7 +435,7 @@ The GitHub repository contains the HTML and CSS assignment files, project docume
 </body>
 </html>
 
-# Question 11 : portfolio-navigation.html
+# Question 11 : Portfolio navigation.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -570,7 +570,7 @@ The GitHub repository contains the HTML and CSS assignment files, project docume
 </body>
 </html>
 
-# Question 12 : images-with-alt.html
+# Question 12 : Images with alt.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -646,5 +646,390 @@ The GitHub repository contains the HTML and CSS assignment files, project docume
 </body>
 </html>
 
+# Question 13 : My college course.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My College Course</title>
+</head>
+<body>
+
+    <header>
+        <h1>My College Course</h1>
+        <p>Welcome to my college course webpage.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About My Course</h2>
+            <p>
+                I am pursuing a Bachelor of Computer Applications (BCA)
+                with a focus on Artificial Intelligence.
+                This course helps me develop technical knowledge,
+                programming skills, and problem-solving abilities.
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>College Information</h2>
+            <p><strong>College Name:</strong> Invertis University</p>
+            <p><strong>Course:</strong> Bachelor of Computer Applications (BCA)</p>
+            <p><strong>Specialization:</strong> Artificial Intelligence</p>
+            <p><strong>Duration:</strong> 3 Years</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Subjects I Study</h2>
+            <ul>
+                <li>Programming in Java</li>
+                <li>Web Development (HTML, CSS, and JavaScript)</li>
+                <li>Data Structures</li>
+                <li>Database Management Systems</li>
+                <li>Statistics and Data Visualization</li>
+                <li>Artificial Intelligence</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Skills I Am Learning</h2>
+            <ol>
+                <li>Writing and debugging code</li>
+                <li>Designing webpages</li>
+                <li>Working with data</li>
+                <li>Solving logical problems</li>
+                <li>Building academic projects</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>My Learning Goals</h2>
+            <p>
+                My goal is to strengthen my programming skills,
+                understand modern technologies, and develop practical
+                projects that will help me prepare for a career in IT.
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Useful Resources</h2>
+            <p>
+                I use online resources to improve my technical knowledge.
+            </p>
+
+            <ul>
+                <li>
+                    <a href="https://developer.mozilla.org/" target="_blank"
+                       rel="noopener noreferrer">
+                        MDN Web Docs
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/" target="_blank"
+                       rel="noopener noreferrer">
+                        W3Schools
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 My College Course Webpage</p>
+    </footer>
+
+</body>
+</html>
 
 
+# Question 14 : Semantic improvement.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Improvement</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Website</h1>
+        <p>Welcome to my personal webpage!</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a college student interested in programming,
+                web development, and modern technologies.
+                I enjoy learning new skills and creating practical projects.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>My Education</h2>
+
+            <article>
+                <h3>College Education</h3>
+                <p>
+                    I am pursuing my undergraduate studies and
+                    developing my knowledge of computer applications.
+                </p>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java Programming</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+
+        <aside>
+            <h2>My Interests</h2>
+            <p>
+                I enjoy learning about technology, exploring
+                programming concepts, and working on projects.
+            </p>
+        </aside>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <address>
+                Email:
+                <a href="mailto:your-2006parisharma@gmail.com">
+                    your-2006parisharma@gmail.com
+                </a>
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Personal Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+# Question 15 : Personal blog portfolio.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog & Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Personal Blog & Portfolio</h1>
+        <p>Sharing my learning journey, ideas, and projects.</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h2>Welcome to My Website!</h2>
+            <p>
+                Hello! Welcome to my personal blog and portfolio.
+                This website showcases my interests, technical skills,
+                learning experiences, and projects.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am a college student interested in computer science,
+                web development, programming, and emerging technologies.
+                I enjoy learning new concepts and applying my knowledge
+                to practical projects.
+            </p>
+
+            <p>
+                My goal is to continuously improve my technical skills
+                and build useful, creative, and user-friendly applications.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="blog">
+            <h2>My Blog</h2>
+
+            <article>
+                <header>
+                    <h3>My Journey into Web Development</h3>
+                    <p>
+                        Published on
+                        <time datetime="2026-10-25">October 25, 2026</time>
+                    </p>
+                </header>
+
+                <p>
+                    My web development journey began with learning HTML.
+                    I discovered how webpages are structured using headings,
+                    paragraphs, images, links, and lists.
+                </p>
+
+                <p>
+                    I am now exploring more HTML elements and learning
+                    how to create accessible and well-structured webpages.
+                </p>
+            </article>
+
+            <hr>
+
+            <article>
+                <header>
+                    <h3>Why Learning Programming Matters</h3>
+                    <p>
+                        Published on
+                        <time datetime="2026-10-20">October 20, 2026</time>
+                    </p>
+                </header>
+
+                <p>
+                    Programming helps us solve problems, automate tasks,
+                    and build useful software. Regular practice and
+                    understanding basic concepts are important for
+                    becoming a better programmer.
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2>My Projects</h2>
+
+            <article>
+                <h3>Project 1: Personal Introduction Page</h3>
+                <p>
+                    A simple HTML webpage that introduces me and presents
+                    my education, interests, and goals.
+                </p>
+            </article>
+
+            <article>
+                <h3>Project 2: Data Visualization Project</h3>
+                <p>
+                    An academic project focused on presenting information
+                    through charts and visual representations of data.
+                </p>
+            </article>
+
+            <article>
+                <h3>Project 3: Personal Portfolio Website</h3>
+                <p>
+                    A webpage designed to organize my skills, projects,
+                    and learning achievements in one place.
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java Programming</li>
+                <li>Data Visualization</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+
+        <hr>
+        
+        <aside>
+            <h2>Currently Learning</h2>
+            <p>
+                I am improving my HTML skills and exploring semantic
+                elements, webpage accessibility, and website structure.
+            </p>
+        </aside>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>
+                Feel free to contact me for learning discussions,
+                collaboration, or project-related opportunities.
+            </p>
+
+            <address>
+                Email:
+                <a href="mailto:2006parisharma@gmail.com">
+                    your-2006parisharma@gmail.com
+                </a>
+                <br><br>
+
+                GitHub:
+                <a href="https://github.com/" target="_blank"
+                   rel="noopener noreferrer">
+                    Visit My GitHub Profile
+                </a>
+            </address>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 My Personal Blog & Portfolio. All rights reserved.</p>
+        <p>Created using HTML5.</p>
+    </footer>
+
+</body>
+</html>
