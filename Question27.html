@@ -1,0 +1,80 @@
+<!-- Card Variants -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Variants</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px lightgray;
+}
+.card h2 {
+    color: darkblue;
+}
+.card p {
+    color: #444;
+    line-height: 1.5;
+}
+.highlight {
+    background-color: #dceeff;
+    border: 2px solid steelblue;
+}
+.profile {
+    text-align: center;
+    border-top: 5px solid darkgreen;
+}
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: darkgreen;
+}
+</style>
+</head>
+<body>
+<h1>Different Card Variants</h1>
+<div class="container">
+<div class="card">
+<h2>Basic Card</h2>
+<p>This is a simple card with basic styling. It contains information about web development.</p>
+<button>Read More</button>
+</div>
+<div class="card highlight">
+<h2>Featured Card</h2>
+<p>This card has a different background and border to highlight important information.</p>
+<button>Explore</button>
+</div>
+<div class="card profile">
+<h2>My Profile</h2>
+<p>Name: Prerna Sharma</p>
+<p>Course: BCA (AI)</p>
+<p>Interest: Data Analytics and AI</p>
+<button>View Profile</button>
+</div>
+</div>
+</body>
+</html>
