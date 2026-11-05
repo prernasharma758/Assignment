@@ -1,0 +1,89 @@
+<!-- Profile and Product Cards -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Product Card</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+.card {
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px lightgray;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.content {
+    padding: 20px;
+}
+h2 {
+    color: darkblue;
+}
+p {
+    color: #555;
+    line-height: 1.5;
+}
+.price {
+    color: darkgreen;
+    font-size: 20px;
+    font-weight: bold;
+}
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkgreen;
+}
+</style>
+</head>
+<body>
+<h1>Profile and Product Cards</h1>
+<div class="container">
+<div class="card">
+<img src="https://picsum.photos/280/180?random=1" alt="Profile Image">
+<div class="content">
+<h2>Prerna Sharma</h2>
+<p>BCA (AI) Student</p>
+<p>Interested in Data Analytics, Artificial Intelligence and Research.</p>
+<button>View Profile</button>
+</div>
+</div>
+<div class="card">
+<img src="https://picsum.photos/280/180?random=2" alt="Laptop Image">
+<div class="content">
+<h2>Smart Laptop</h2>
+<p>Useful for students and professionals.</p>
+<p class="price">₹45,000</p>
+<button>Buy Now</button>
+</div>
+</div>
+</div>
+</body>
+</html>
