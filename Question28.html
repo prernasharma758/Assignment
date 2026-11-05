@@ -1,0 +1,70 @@
+<!-- Fix Overflow -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fix Overflow</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+.box {
+    width: 250px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    padding: 10px;
+    margin: 20px 0;
+    overflow: auto;
+}
+.hidden {
+    overflow: hidden;
+}
+.scroll {
+    overflow: scroll;
+}
+.visible {
+    overflow: visible;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>CSS Overflow Property</h1>
+<p>Overflow controls what happens when content is larger than its container.</p>
+<h2>1. Overflow Auto</h2>
+<div class="box">
+<p>This is an example of overflow auto. When the content becomes larger than the box, a scrollbar appears automatically.</p>
+<p>Additional content is added to demonstrate the overflow property.</p>
+</div>
+<h2>2. Overflow Hidden</h2>
+<div class="box hidden">
+<p>This box uses hidden overflow. Extra content outside the box will not be visible.</p>
+<p>This is additional content to show how hidden overflow works.</p>
+</div>
+<h2>3. Overflow Scroll</h2>
+<div class="box scroll">
+<p>This box uses scroll overflow. Scrollbars are provided to view extra content inside the box.</p>
+<p>This is some additional text to demonstrate scrolling.</p>
+</div>
+<h2>4. Overflow Visible</h2>
+<div class="box visible">
+<p>This box uses visible overflow. Extra content can appear outside the box.</p>
+<p>This is additional content to demonstrate visible overflow.</p>
+</div>
+</div>
+</body>
+</html>
