@@ -1,0 +1,76 @@
+<!-- Hero Position and Z-Index -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hero Position and Z-Index</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2;
+}
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+.hero {
+    position: relative;
+    height: 350px;
+    background-color: lightblue;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px;
+}
+.hero h2 {
+    position: relative;
+    z-index: 2;
+    color: darkblue;
+    font-size: 30px;
+}
+.hero p {
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+}
+.box1 {
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    background-color: orange;
+    top: 130px;
+    right: 100px;
+    z-index: 1;
+}
+.box2 {
+    position: absolute;
+    width: 130px;
+    height: 100px;
+    background-color: lightgreen;
+    top: 170px;
+    right: 130px;
+    z-index: 3;
+}
+button {
+    position: relative;
+    z-index: 4;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+</style>
+</head>
+<body>
+<h1>Hero Section with Positioning</h1>
+<div class="hero">
+<h2>Welcome to My Website</h2>
+<p>Learn new skills and explore technology.</p>
+<button>Explore More</button>
+<div class="box1"></div>
+<div class="box2"></div>
+</div>
+</body>
+</html>
