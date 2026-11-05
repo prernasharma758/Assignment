@@ -1,0 +1,68 @@
+<!-- Design Tokens -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design Tokens</title>
+<style>
+:root {
+    --primary-color: #274c77;
+    --secondary-color: #6096ba;
+    --background-color: #e7ecef;
+    --text-color: #333333;
+    --heading-size: 28px;
+    --normal-size: 16px;
+    --space: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: var(--space);
+}
+.container {
+    background-color: white;
+    padding: var(--space);
+    border-radius: 8px;
+}
+h1 {
+    color: var(--primary-color);
+    font-size: var(--heading-size);
+    text-align: center;
+}
+h2 {
+    color: var(--secondary-color);
+}
+p {
+    font-size: var(--normal-size);
+    line-height: 1.5;
+}
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Design Tokens</h1>
+<h2>Introduction</h2>
+<p>Design tokens are reusable values used in website design. They help maintain consistent colours, fonts and spacing.</p>
+<h2>My Design Elements</h2>
+<ul>
+<li>Primary Color: Dark Blue</li>
+<li>Secondary Color: Light Blue</li>
+<li>Background Color: Light Grey</li>
+<li>Font Size: 16px</li>
+<li>Spacing: 20px</li>
+</ul>
+<h2>Benefits of Design Tokens</h2>
+<p>They make websites easy to maintain and help keep the design consistent.</p>
+<button>Learn More</button>
+</div>
+</body>
+</html>
