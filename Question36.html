@@ -1,0 +1,60 @@
+<!-- Grid Photo Gallery -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 600px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Photo Gallery</h1>
+
+    <div class="gallery">
+        <img src="https://picsum.photos/id/1015/400/300" alt="Mountain view">
+        <img src="https://picsum.photos/id/1016/400/300" alt="Nature view">
+        <img src="https://picsum.photos/id/1018/400/300" alt="Forest">
+        <img src="https://picsum.photos/id/1020/400/300" alt="Animal">
+        <img src="https://picsum.photos/id/1039/400/300" alt="River">
+        <img src="https://picsum.photos/id/1043/400/300" alt="Beach">
+    </div>
+
+</body>
+</html>
