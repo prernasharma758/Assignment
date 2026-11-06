@@ -1,0 +1,108 @@
+<!-- Flex Navbar and Hero -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flex Navbar and Hero</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+    padding: 15px 40px;
+}
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+    gap: 25px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: yellow;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 400px;
+    padding: 30px;
+    background-color: lightblue;
+}
+.hero h1 {
+    color: darkblue;
+    font-size: 36px;
+}
+.hero p {
+    font-size: 18px;
+    max-width: 550px;
+    line-height: 1.5;
+}
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkgreen;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: darkblue;
+    color: white;
+}
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero h1 {
+        font-size: 28px;
+    }
+}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">My Website</div>
+<div class="menu">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+<section class="hero" id="home">
+<h1>Welcome to My Website</h1>
+<p>Explore new ideas, learn useful skills and discover the world of technology with us.</p>
+<button>Get Started</button>
+</section>
+<section style="padding:30px;text-align:center;" id="about">
+<h2>About Us</h2>
+<p>This website is created using HTML, CSS and Flexbox.</p>
+</section>
+</body>
+</html>
