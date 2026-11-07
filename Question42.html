@@ -1,0 +1,98 @@
+<!-- Responsive Audit Fix -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Audit Fix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f2f2f2;
+        }
+        header {
+            background: #2878c8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #333;
+            padding: 12px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+            max-width: 1100px;
+            margin: 25px auto;
+            padding: 15px;
+        }
+        .content, .sidebar {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .content img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Responsive Web Page</h1>
+        <p>A layout that works on different devices</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <h2>Welcome to Our Website</h2>
+            <p>This page adjusts its layout according to the screen size. It provides a better experience on mobile, tablet and desktop devices.</p>
+            <img src="https://picsum.photos/id/1015/600/300" alt="Nature">
+        </div>
+        <div class="sidebar">
+            <h2>Latest Updates</h2>
+            <p>New website design launched.</p>
+            <p>Responsive layout improved.</p>
+            <p>Mobile viewing experience updated.</p>
+        </div>
+    </div>
+    <footer>
+        <p>Responsive Design | 2026</p>
+    </footer>
+</body>
+</html>
