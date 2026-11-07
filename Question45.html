@@ -1,0 +1,139 @@
+<!-- Responsive Landing Page -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #263b50;
+            color: white;
+            padding: 15px 40px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 8%;
+            gap: 30px;
+            background: #e5eef8;
+        }
+        .hero-text {
+            flex: 1;
+        }
+        .hero img {
+            width: 45%;
+            max-width: 450px;
+            border-radius: 10px;
+        }
+        button {
+            background: #2878c8;
+            color: white;
+            border: none;
+            padding: 11px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 35px;
+        }
+        .card {
+            background: white;
+            padding: 22px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px #ccc;
+        }
+        footer {
+            background: #263b50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero img {
+                width: 100%;
+            }
+            .features {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 500px) {
+            nav {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .features {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>CreativeSpace</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to CreativeSpace</h1>
+            <p>Explore new ideas, learn useful skills and improve your knowledge with us.</p>
+            <button>Get Started</button>
+        </div>
+        <img src="https://picsum.photos/id/180/500/300" alt="Creative workspace">
+    </section>
+    <section class="features">
+        <div class="card">
+            <h3>Creative Ideas</h3>
+            <p>Discover new ideas and opportunities.</p>
+        </div>
+        <div class="card">
+            <h3>Easy Learning</h3>
+            <p>Learn new skills in a simple way.</p>
+        </div>
+        <div class="card">
+            <h3>Better Growth</h3>
+            <p>Improve your skills and knowledge.</p>
+        </div>
+    </section>
+    <footer>
+        <p>CreativeSpace | 2026</p>
+    </footer>
+</body>
+</html>
