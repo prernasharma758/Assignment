@@ -1,0 +1,107 @@
+<!-- Landing Page Skeleton -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page Skeleton</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #263b50;
+            color: white;
+            padding: 15px 40px;
+        }
+        nav {
+            display: flex;
+            gap: 25px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 8%;
+            background: #e5eef8;
+        }
+        .hero-text {
+            width: 50%;
+        }
+        .hero img {
+            width: 40%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .hero button {
+            background: #2878c8;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 40px;
+        }
+        .box {
+            background: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        footer {
+            background: #263b50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>CreativeSpace</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Build Something Amazing</h1>
+            <p>Explore new ideas, learn useful skills and create something meaningful.</p>
+            <button>Explore More</button>
+        </div>
+        <img src="https://picsum.photos/id/180/500/300" alt="Creative workspace">
+    </section>
+    <section class="features">
+        <div class="box">
+            <h3>Creative Ideas</h3>
+            <p>Discover new ideas and opportunities.</p>
+        </div>
+        <div class="box">
+            <h3>Easy Learning</h3>
+            <p>Learn new things in a simple way.</p>
+        </div>
+        <div class="box">
+            <h3>Better Growth</h3>
+            <p>Improve your skills and knowledge.</p>
+        </div>
+    </section>
+    <footer>
+        <p>CreativeSpace | 2026</p>
+    </footer>
+</body>
+</html>
