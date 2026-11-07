@@ -1,0 +1,114 @@
+<!-- Project Portfolio -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Project Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #263b50;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+        nav {
+            background: #34495e;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 15px;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 6px #ccc;
+        }
+        .card img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+        }
+        .content {
+            padding: 15px;
+        }
+        .content button {
+            background: #2878c8;
+            color: white;
+            border: none;
+            padding: 9px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background: #263b50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my project collection</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <img src="https://picsum.photos/id/20/400/250" alt="Project 1">
+                <div class="content">
+                    <h3>Healthcare Dashboard</h3>
+                    <p>A dashboard for understanding healthcare costs and data.</p>
+                    <button>View Project</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/48/400/250" alt="Project 2">
+                <div class="content">
+                    <h3>HR Analytics</h3>
+                    <p>An analysis of employee data and workplace trends.</p>
+                    <button>View Project</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/180/400/250" alt="Project 3">
+                <div class="content">
+                    <h3>Education Analytics</h3>
+                    <p>A project to explore student performance and results.</p>
+                    <button>View Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>My Portfolio | 2026</p>
+    </footer>
+</body>
+</html>
